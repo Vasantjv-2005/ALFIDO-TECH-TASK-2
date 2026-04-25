@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TaskFlow - Modern To-Do List App</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Loading Animation -->
+    <div class="loading-screen" id="loadingScreen">
+        <div class="loading-spinner"></div>
+    </div>
+
+    <!-- Landing Section -->
+    <section class="landing-section" id="landingSection">
+        <div class="landing-content">
+            <h1 class="landing-headline">Ready to build your tasks everyday</h1>
+            <p class="landing-subtitle">Organize, prioritize, and accomplish more with our modern task management system</p>
+            <button class="cta-button" id="startPlanningBtn">Start Planning</button>
+        </div>
+        <div class="floating-elements">
+            <div class="floating-element element-1"></div>
+            <div class="floating-element element-2"></div>
+            <div class="floating-element element-3"></div>
+        </div>
+    </section>
+
+    <!-- Main App Section -->
+    <main class="app-section" id="appSection">
+        <div class="app-container">
+            <!-- Header -->
+            <header class="app-header">
+                <h1 class="app-title">TaskFlow</h1>
+                <div class="progress-container">
+                    <div class="progress-info">
+                        <span class="progress-text">Progress</span>
+                        <span class="progress-count" id="progressCount">0/0</span>
+                    </div>
+                    <div class="progress-bar">
+                        <div class="progress-fill" id="progressFill"></div>
+                    </div>
+                </div>
+            </header>
+
+            <!-- Filter Tabs -->
+            <div class="filter-tabs">
+                <button class="filter-tab active" data-filter="all">All Tasks</button>
+                <button class="filter-tab" data-filter="pending">Pending</button>
+                <button class="filter-tab" data-filter="completed">Completed</button>
+            </div>
+
+            <!-- Task Form -->
+            <section class="task-form-section">
+                <form class="task-form" id="taskForm">
+                    <div class="form-row">
+                        <div class="form-group">
+                            <input type="text" id="taskTitle" placeholder="What needs to be done?" required class="task-input">
+                        </div>
+                        <div class="form-group">
+                            <select id="prioritySelect" class="priority-select">
+                                <option value="low">Low Priority</option>
+                                <option value="medium" selected>Medium Priority</option>
+                                <option value="high">High Priority</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <select id="timeSelect" class="time-select">
+                                <option value="15">15 min</option>
+                                <option value="30">30 min</option>
+                                <option value="45">45 min</option>
+                                <option value="60" selected>1 hour</option>
+                                <option value="90">1.5 hours</option>
+                                <option value="120">2 hours</option>
+                                <option value="180">3 hours</option>
+                                <option value="240">4 hours</option>
+                            </select>
+                        </div>
+                        <button type="submit" class="add-task-btn">
+                            <span class="btn-text">Add Task</span>
+                            <span class="btn-icon">+</span>
+                        </button>
+                    </div>
+                </form>
+            </section>
+
+            <!-- Tasks Container -->
+            <section class="tasks-section">
+                <div class="tasks-container" id="tasksContainer">
+                    <div class="empty-state" id="emptyState">
+                        <div class="empty-icon">📝</div>
+                        <h3>No tasks yet</h3>
+                        <p>Start by adding your first task above</p>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
