@@ -2,21 +2,24 @@
 
 A beautifully designed, fully responsive to-do list application built with modern web technologies and featuring stunning glassmorphism design.
 
-## ✨ Features
+##  Features
 
-### 🎨 **UI/UX Design**
+###  **UI/UX Design**
 - **Glassmorphism Design**: Modern frosted glass effect with backdrop filters
 - **Gradient Background**: Vibrant dark gradient with purple and blue tones
 - **Smooth Animations**: Micro-interactions, hover effects, and transitions
 - **Custom Scrollbar**: Styled to match the overall design theme
 - **Floating Elements**: Animated decorative elements on landing page
 
-### 📱 **Responsive Design**
+## Document of the Task page 
+https://docs.google.com/document/d/1CwurslW2Y-VGBcjoLCKiPL-z5C8Rx8A3r9uhh-IIcXo/edit?usp=sharing
+
+###  **Responsive Design**
 - **Mobile-First Approach**: Optimized for all screen sizes
 - **Flexible Layout**: Adapts seamlessly to mobile, tablet, and desktop
 - **Touch-Friendly**: Large tap targets and touch-optimized interactions
 
-### 🚀 **Core Functionality**
+###  **Core Functionality**
 - **Landing Section**: Bold headline "Ready to build your tasks everyday" with CTA button
 - **Task Management**: Add, complete, and delete tasks
 - **Priority System**: Low (green), Medium (orange), High (red) priority levels
@@ -24,11 +27,11 @@ A beautifully designed, fully responsive to-do list application built with moder
 - **Progress Indicator**: Visual progress bar showing completed vs total tasks
 - **Filter System**: Filter tasks by All, Completed, or Pending status
 
-### 💾 **Data Persistence**
+###  **Data Persistence**
 - **Local Storage**: Tasks are automatically saved to browser storage
 - **Auto-Restore**: Tasks persist across page reloads and browser sessions
 
-### 🎭 **Animations & Effects**
+###  **Animations & Effects**
 - **Loading Animation**: Smooth spinner on app startup
 - **Page Transitions**: Seamless transition from landing to main app
 - **Task Animations**: Slide-in when added, fade-out when removed
@@ -36,7 +39,7 @@ A beautifully designed, fully responsive to-do list application built with moder
 - **Hover States**: Smooth elevation and glow effects
 - **Form Interactions**: Focus states with subtle scale effects
 
-### ⚡ **Bonus Features**
+###  **Bonus Features**
 - **Keyboard Shortcuts**: 
   - `Ctrl/Cmd + K` to focus task input
   - `Escape` to blur active input
@@ -44,7 +47,7 @@ A beautifully designed, fully responsive to-do list application built with moder
 - **Empty States**: Contextual messages when no tasks are present
 - **Performance Optimized**: Debounced resize events and efficient rendering
 
-## 🛠️ Technologies Used
+##  Technologies Used
 
 - **HTML5**: Semantic markup with modern elements
 - **CSS3**: 
@@ -55,7 +58,7 @@ A beautifully designed, fully responsive to-do list application built with moder
 - **Vanilla JavaScript**: No frameworks, pure ES6+ JavaScript
 - **Google Fonts**: Inter font family for modern typography
 
-## 🚀 Getting Started
+##  Getting Started
 
 1. **Clone or Download** the project files
 2. **Open `index.html`** in your preferred web browser
@@ -64,7 +67,7 @@ A beautifully designed, fully responsive to-do list application built with moder
 ### No Build Process Required
 This is a vanilla web application - simply open the HTML file in a browser and it works instantly!
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 taskflow-app/
@@ -74,7 +77,7 @@ taskflow-app/
 └── README.md          # This documentation file
 ```
 
-## 🎯 Key Features Breakdown
+##  Key Features Breakdown
 
 ### Landing Page
 - Eye-catching gradient background
@@ -105,7 +108,7 @@ taskflow-app/
 - Active state indicators
 - Smooth transitions between filters
 
-## 🎨 Design Principles
+##  Design Principles
 
 - **Glassmorphism**: Frosted glass effect with backdrop filters
 - **Neumorphism**: Soft shadows and rounded corners
@@ -114,20 +117,20 @@ taskflow-app/
 - **Accessibility**: Semantic HTML and keyboard navigation
 - **Performance**: Optimized animations and efficient rendering
 
-## 📱 Responsive Breakpoints
+##  Responsive Breakpoints
 
 - **Mobile**: < 480px - Single column layout, stacked elements
 - **Tablet**: 480px - 768px - Optimized grid layouts
 - **Desktop**: > 768px - Full multi-column layout
 
-## 🔄 Browser Compatibility
+##  Browser Compatibility
 
 - **Modern Browsers**: Chrome, Firefox, Safari, Edge
 - **Mobile Browsers**: iOS Safari, Chrome Mobile
 - **Features Used**: CSS Grid, Flexbox, Backdrop Filter, Local Storage
 
-## 🎊 Enjoy Using TaskFlow!
+##  Enjoy Using TaskFlow!
 
 This application demonstrates modern web development capabilities with attention to detail in both design and functionality. The glassmorphism design creates a premium feel while maintaining excellent usability and performance.
 
-**Built with ❤️ using pure HTML, CSS, and JavaScript**
+**Built with  using pure HTML, CSS, and JavaScript**
