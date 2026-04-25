@@ -14,6 +14,8 @@ A beautifully designed, fully responsive to-do list application built with moder
 ## Document of the Task page 
 https://docs.google.com/document/d/1CwurslW2Y-VGBcjoLCKiPL-z5C8Rx8A3r9uhh-IIcXo/edit?usp=sharing
 
+## deployed link 
+https://alfido-tech-task-2-one.vercel.app/
 ###  **Responsive Design**
 - **Mobile-First Approach**: Optimized for all screen sizes
 - **Flexible Layout**: Adapts seamlessly to mobile, tablet, and desktop
